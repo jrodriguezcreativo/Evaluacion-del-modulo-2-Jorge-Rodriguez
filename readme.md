@@ -40,7 +40,7 @@ Deberás diseñar un sitio web de **tres páginas** con el siguiente contenido:
 
 ### 2. Diseño y Estilo
 
-  **- HTML5:** Uso de etiquetas semánticas para estructurar correctamente el contenido.
+  **- HTML5:** Uso de etiquetas semánticas para estructurar correctamente el contenido
   **- CSS3 y Bootstrap:** Implementación de estilos modernos y diseño responsivo con media queries.
   **- jQuery:** Uso de efectos interactivos como ocultar/mostrar información, manipulación del DOM y validaciones.
   **- Bootstrap + jQuery Plugins:** Inclusión de al menos un carrusel, acordeón o modal.
