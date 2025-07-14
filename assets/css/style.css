@@ -4,8 +4,12 @@
   box-sizing: 0;
 }
 
-html {
+/* html {
   scroll-padding-top: 120px;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .primario {
@@ -57,9 +61,14 @@ html {
   scale: 1.0375;
 }
 
-.blur {
-  backdrop-filter: blur(10px);
-  background-color: #FBFBFB44;
+.blur-oscuro {
+  backdrop-filter: blur(4px);
+  background-color: #06080b55;
+}
+
+.blur-claro {
+  backdrop-filter: blur(4px);
+  background-color: #FBFBFB55;
 }
 
 .navbar button:hover {
@@ -69,4 +78,13 @@ html {
 
 .navbar-collapse {
   flex-grow: 0;
+}
+
+.hero {
+  background-image: url(../img/hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
