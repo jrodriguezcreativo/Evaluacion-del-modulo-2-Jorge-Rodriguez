@@ -76,6 +76,12 @@ body {
   color: #FBFBFB44;
 }
 
+.navbar-toggler {
+  color: #FBFBFBDD;
+  background-color: #DADADADD;
+}
+
+
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -87,4 +93,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  border: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FBFBFB;
+}
+
+footer a:hover {
+  color: #FBFBFBAA;
 }
