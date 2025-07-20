@@ -61,6 +61,10 @@ body {
   scale: 1.0375;
 }
 
+.nav-link.active {
+  color: #FBFBFB55 !important;
+}
+
 .blur-oscuro {
   backdrop-filter: blur(4px);
   background-color: #06080b55;
@@ -71,16 +75,60 @@ body {
   background-color: #FBFBFB55;
 }
 
-.navbar button:hover {
-  background-color: #2ECC7144;
-  color: #FBFBFB44;
+.btn-primary {
+  background-color: #2ECC71;
+  color: #FBFBFB;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #2ECC71BB;
+  color: #DADADA;
+  border: 1px solid #2ECC71;
+}
+
+.btn-primary:active {
+  background-color: #2ECC71;
+  border: none !important;
+}
+
+.btn-primary:focus {
+  background-color: #2ECC71 !important;
+
+}
+
+.btn-secondary {
+  background-color: #DADADA;
+  border: 1px solid #06080B;
+  color: #06080B;
+}
+
+.btn-secondary:hover {
+  background-color: #DADADABB;
+  color: #1C2A38;
+}
+
+.btn-secondary:active {
+  background-color: #DADADA !important;
+}
+
+.btn-secondary:focus {
+  background-color: #DADADA !important;
+  border: 2px solid #06080B !important;
+}
+
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.btn-close {
+  color: #DADADA !important;
 }
 
 .navbar-toggler {
   color: #FBFBFBDD;
   background-color: #DADADADD;
 }
-
 
 .navbar-collapse {
   flex-grow: 0;
