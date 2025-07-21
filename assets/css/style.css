@@ -134,8 +134,17 @@ body {
   flex-grow: 0;
 }
 
-.hero {
-  background-image: url(../img/hero.jpg);
+.hero-inicio {
+  background-image: url(../img/hero-inicio.jpg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-amenazas {
+  background-image: url(../img/hero-amenazas.webp);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -154,4 +163,34 @@ footer a {
 
 footer a:hover {
   color: #FBFBFBAA;
+}
+
+.flip-card {
+  perspective: 1000px;
+  height: 240px; 
+  cursor: pointer;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; 
+  transition: transform 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-back {
+  transform: rotateY(180deg); 
+}
+
+.flip-card:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover .card-back {
+  transform: rotateY(360deg);
 }
