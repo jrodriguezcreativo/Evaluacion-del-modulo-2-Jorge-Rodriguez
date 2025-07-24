@@ -59,7 +59,12 @@
                 <a class="nav-link gris" href="amenazas.html">Amenazas</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link active gris" aria-current="page" href="consejos.html">Consejos</a>
+                <a
+                  class="nav-link active gris"
+                  aria-current="page"
+                  href="consejos.html"
+                  >Consejos</a
+                >
               </li>
             </ul>
             <button
@@ -179,61 +184,347 @@
     <!-- main -->
     <main>
       <!-- hero -->
-      <section class="hero">
+      <section class="hero-consejos">
         <div class="container">
           <div class="py-5 px-4 blur-oscuro">
-            <h1 class="text-center display-2 px-4 claro">
-              Tu <span class="secundario fw-semibold">Seguridad</span> digital
-              comienza con el conocimiento
-            </h1>
+            <div class="row d-flex flex-column align-items-center text-center">
+              <div class="col-md-12 col-lg-8 claro">
+                <h2 class="display-5">
+                  Consejos para <span class="secundario">protegerte</span> en
+                  Internet
+                </h2>
+              </div>
+              <div class="col-md-12 col-lg-8 gris blur-oscuro p-4">
+                <p>
+                  Protegerte en línea no requiere ser experto en tecnología. Con
+                  simples hábitos y medidas básicas puedes mejorar
+                  significativamente tu seguridad. A continuación, te dejamos
+                  recomendaciones clave para mantener tu información a salvo.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- Intro Ciberseguridad -->
-
-      </main>
-      <!-- footer -->
-      <footer class="blur-oscuro py-4 mt-5">
+      <section class="mt-5">
         <div class="container">
+          <h2 class="display-5 claro text-center py-3 my-3">
+            Buenas Prácticas de <span class="secundario">Ciberseguridad</span>
+          </h2>
           <div
-            class="row d-flex justify-content-between align-items-center gap-4"
+            class="accordion accordion-flush blur-claro"
+            id="accordionFlushExample"
           >
-            <div
-              class="col-lg-3 d-flex flex-column justify-content-lg-start justify-content-center text-center text-lg-start"
-            >
-              <a class="navbar-brand" href="#"
-                ><img
-                  src="assets/img/logo-cyber-shield.png"
-                  width="40"
-                  alt="Logo Cyber Shield"
-              /></a>
-              <p class="gris">
-                &copy; 2025 SafeNet. Todos los derechos reservados
-              </p>
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Consejo 1: Usa contraseñas seguras y únicas
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Evita claves como “123456”. Usa letras, números, símbolos y no
+                  repitas contraseñas entre plataformas.
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 text-center d-flex flex-column">
-              <h5 class="gris">Enlaces:</h5>
-              <a href="index.html">Inicio</a>
-              <a href="amenazas.html">Amenazas</a>
-              <a href="consejos.html">Consejos</a>
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Consejo 2: Activa la autenticación en dos pasos
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Añade una capa extra de seguridad. Así, incluso si alguien
+                  obtiene tu contraseña, no podrá acceder a tu cuenta sin el
+                  segundo factor.
+                </div>
+              </div>
             </div>
-            <div
-              class="col-lg-3 d-flex justify-content-lg-end justify-content-center gap-2"
-            >
-              <a href="https://www.facebook.com/" target="_blank"
-                ><i class="fa-brands fa-square-facebook fa-2xl"></i
-              ></a>
-              <a href="https://www.instagram.com/" target="_blank"
-                ><i class="fa-brands fa-square-instagram fa-2xl"></i
-              ></a>
-              <a href="https://www.linkedin.com/" target="_blank"
-                ><i class="fa-brands fa-linkedin fa-2xl"></i
-              ></a>
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Consejo 3: Mantén actualizado tu software
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Las actualizaciones corrigen vulnerabilidades. No ignores los
+                  mensajes de actualización del sistema o aplicaciones.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Consejo 4: No hagas clic en enlaces sospechosos
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Verifica siempre la dirección del remitente y evita abrir
+                  archivos adjuntos no solicitados.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  Consejo 5: Usa redes WiFi seguras
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Evita conectarte a redes públicas sin VPN. Podrían estar
+                  interceptando tu información.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  Consejo 6: Revisa los permisos de las apps
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Solo otorga acceso a funciones necesarias. No permitas que una
+                  app de linterna acceda a tus contactos, por ejemplo.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item blur-claro primario">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed blur-claro primario"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                  Consejo 7: Haz respaldos periódicos
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Guarda copias de tus archivos importantes en servicios de nube
+                  o discos externos.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </footer>
-    
+      </section>
+
+      <section class="mt-5">
+        <div class="container">
+          <!-- BOTÓN PARA TEST DE SEGURIDAD -->
+          <div class="text-center my-5">
+            <button
+              class="btn btn-success"
+              data-bs-toggle="modal"
+              data-bs-target="#quizModal"
+            >
+              ¿Qué tan seguro estás?
+            </button>
+          </div>
+
+          <!-- MODAL TEST DE SEGURIDAD -->
+          <div
+            class="modal fade"
+            id="quizModal"
+            tabindex="-1"
+            aria-labelledby="quizModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <form id="quizForm">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="quizModalLabel">
+                      Test de Seguridad en Línea
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Cerrar"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Pregunta 1 -->
+                    <div class="mb-3">
+                      <label class="form-label"
+                        >1. ¿Qué es una contraseña segura?</label
+                      ><br />
+                      <input type="radio" name="q1" value="a" /> 123456<br />
+                      <input type="radio" name="q1" value="b" /> MiNombre<br />
+                      <input type="radio" name="q1" value="c" /> f8$P!l3zA<br />
+                    </div>
+                    <!-- Pregunta 2 -->
+                    <div class="mb-3">
+                      <label class="form-label"
+                        >2. ¿Qué hacer si recibes un correo de tu banco pidiendo
+                        tu clave?</label
+                      ><br />
+                      <input type="radio" name="q2" value="a" /> Ingresar al
+                      enlace<br />
+                      <input type="radio" name="q2" value="b" /> Ignorarlo<br />
+                      <input type="radio" name="q2" value="c" /> Consultarlo
+                      directamente con el banco<br />
+                    </div>
+                    <!-- Pregunta 3 -->
+                    <div class="mb-3">
+                      <label class="form-label"
+                        >3. ¿Cuál es el primer paso si tu PC se infecta con
+                        malware?</label
+                      ><br />
+                      <input type="radio" name="q3" value="a" /> Pagar el
+                      rescate<br />
+                      <input type="radio" name="q3" value="b" /> Ignorarlo<br />
+                      <input type="radio" name="q3" value="c" /> Desconectar de
+                      internet y buscar ayuda<br />
+                    </div>
+                    <div id="quizResult" class="fw-bold mt-3"></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">
+                      Ver Resultado
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="blur-oscuro py-4 mt-5">
+      <div class="container">
+        <div
+          class="row d-flex justify-content-between align-items-center gap-4"
+        >
+          <div
+            class="col-lg-3 d-flex flex-column justify-content-lg-start justify-content-center text-center text-lg-start"
+          >
+            <a class="navbar-brand" href="#"
+              ><img
+                src="assets/img/logo-cyber-shield.png"
+                width="40"
+                alt="Logo Cyber Shield"
+            /></a>
+            <p class="gris">
+              &copy; 2025 SafeNet. Todos los derechos reservados
+            </p>
+          </div>
+          <div class="col-lg-4 text-center d-flex flex-column">
+            <h5 class="gris">Enlaces:</h5>
+            <a href="index.html">Inicio</a>
+            <a href="amenazas.html">Amenazas</a>
+            <a href="consejos.html">Consejos</a>
+          </div>
+          <div
+            class="col-lg-3 d-flex justify-content-lg-end justify-content-center gap-2"
+          >
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-square-facebook fa-2xl"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-square-instagram fa-2xl"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2xl"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

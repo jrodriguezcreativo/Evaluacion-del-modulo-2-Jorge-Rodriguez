@@ -152,6 +152,15 @@ body {
   align-items: center;
 }
 
+.hero-consejos {
+  background-image: url(../img/hero-consejos.webp);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   border: none;
 }
@@ -193,4 +202,10 @@ footer a:hover {
 
 .flip-card:hover .card-back {
   transform: rotateY(360deg);
+}
+
+.accordion-button:not(.collapsed){
+  backdrop-filter: blur(4px);
+  background-color: #06080b55;
+  color: #FBFBFB;
 }
