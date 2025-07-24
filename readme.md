@@ -52,3 +52,5 @@ Deberás diseñar un sitio web de **tres páginas** con el siguiente contenido:
   - Configurar `.gitignore` para excluir archivos innecesarios.
   - Publicar el código en **GitHub** y compartir el enlace.
   - Documentar el proyecto en `README.md`, explicando su estructura y funcionalidad.
+
+  [ver sitio](https://jokercg.github.io/Evaluacion-del-modulo-2-Jorge-Rodriguez/)
