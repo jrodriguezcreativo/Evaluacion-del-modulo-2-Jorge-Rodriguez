@@ -53,4 +53,4 @@ Deberás diseñar un sitio web de **tres páginas** con el siguiente contenido:
   - Publicar el código en **GitHub** y compartir el enlace.
   - Documentar el proyecto en `README.md`, explicando su estructura y funcionalidad.
 
-  [ver sitio](https://jokercg.github.io/Evaluacion-del-modulo-2-Jorge-Rodriguez/)
+  [ver sitio](https://jrodriguezcreativo.github.io/Evaluacion-del-modulo-2-Jorge-Rodriguez/)
